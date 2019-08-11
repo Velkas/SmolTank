@@ -6,6 +6,9 @@ public class GlobalInteraction : MonoBehaviour
 {
     void Update()
     {
-        Application.Quit();
+        if (Input.GetKey("escape"))
+        {
+            Application.Quit();
+        }
     }
 }
