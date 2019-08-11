@@ -1,0 +1,30 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class followMouse : MonoBehaviour
+{
+    public float lookSpeed = 3f;
+
+    private Camera camera;
+
+    void Awake()
+    {
+        camera = Camera.main;
+    }
+
+    void Update()
+    {
+        Plane playerPlane = new Plane(Vector3.up, transform.position);
+        Ray ray = camera.ScreenPointToRay(Input.mousePosition);
+        float hit = 0f;
+
+        if (playerPlane.Raycast(ray, out hit))
+        {
+            // do a look
+            Vector3 target = ray.GetPoint(hit);
+            Quaternion targetRotation = Quaternion.LookRotation(target - transform.position, Vector3.up);
+            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, lookSpeed * Time.deltaTime);
+        }
+    }
+}
