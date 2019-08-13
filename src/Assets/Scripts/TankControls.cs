@@ -12,7 +12,7 @@ public class TankControls : MonoBehaviour
     [Header("Missile Attributes")]
     public GameObject missile;
     public Transform missileSpawn;
-    public float fireRate = 1f;
+    public float fireRate = 0.25f;
     private float fireCounter = 0;
 
     private string movementAxisName;          // The name of the input axis for moving forward and back.
@@ -43,7 +43,7 @@ public class TankControls : MonoBehaviour
         if (Input.GetButtonDown("Fire1") && fireCounter <= 0)
         {
             Shoot();
-            fireCounter = 1f / fireRate;
+            fireCounter = 1f * fireRate;
         }
 
         fireCounter -= Time.deltaTime;

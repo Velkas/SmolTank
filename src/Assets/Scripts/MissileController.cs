@@ -38,16 +38,13 @@ public class MissileController : MonoBehaviour
             foreach (Collider obj in objects)
             {
                 // Get the rb attached to the object
-                Rigidbody obj_rb = GetComponent<Rigidbody>();
+                Rigidbody obj_rb = obj.GetComponent<Rigidbody>();
 
                 // Check to make sure we got a body
                 if (obj_rb != null)
                 {
-                    // log the body for debugging
-                    Debug.Log("Exploding " + obj.name);
-
                     // Apply the explosion
-                    obj_rb.AddExplosionForce(explosionPower, explosionPos, explosionRadius, 3f);
+                    obj_rb.AddExplosionForce(explosionPower, explosionPos, explosionRadius, 1f);
                 }
             }
 
