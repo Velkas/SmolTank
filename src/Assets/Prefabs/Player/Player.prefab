@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 9176018212845689816}
   - component: {fileID: 9176018212845689819}
   - component: {fileID: 405120917}
+  - component: {fileID: 700042825}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -62,7 +63,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 80
-  m_CollisionDetection: 2
+  m_CollisionDetection: 1
 --- !u!114 &405120917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78,6 +79,19 @@ MonoBehaviour:
   playerNumber: 1
   moveSpeed: 10
   turnSpeed: 100
+--- !u!65 &700042825
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9176018212845689817}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 1.6, z: 4}
+  m_Center: {x: 0, y: 0.8, z: 0}
 --- !u!1001 &6275144952986321770
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -143,6 +157,11 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 32529feac2ab3eb40b52541db8772720,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2745567992595731601, guid: 32529feac2ab3eb40b52541db8772720,
+        type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -2745567992595731601, guid: 32529feac2ab3eb40b52541db8772720,
@@ -223,6 +242,11 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 650a3f2edfee6cd4d9a05f4c02a2399f,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2745567992595731601, guid: 650a3f2edfee6cd4d9a05f4c02a2399f,
+        type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -2745567992595731601, guid: 650a3f2edfee6cd4d9a05f4c02a2399f,

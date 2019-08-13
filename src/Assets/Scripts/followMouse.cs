@@ -6,17 +6,17 @@ public class followMouse : MonoBehaviour
 {
     public float lookSpeed = 3f;
 
-    private Camera camera;
+    private Camera cam;
 
     void Awake()
     {
-        camera = Camera.main;
+        cam = Camera.main;
     }
 
     void Update()
     {
         Plane playerPlane = new Plane(Vector3.up, transform.position);
-        Ray ray = camera.ScreenPointToRay(Input.mousePosition);
+        Ray ray = cam.ScreenPointToRay(Input.mousePosition);
         float hit = 0f;
 
         if (playerPlane.Raycast(ray, out hit))

@@ -42,7 +42,6 @@ public class TankControls : MonoBehaviour
         Turn();
     }
 
-
     private void Move()
     {
         // Create a vector in the direction the tank is facing with a magnitude based on the input, speed and the time between frames.
