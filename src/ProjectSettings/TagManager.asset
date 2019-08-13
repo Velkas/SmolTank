@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - PhysicsWall
+  - PhysicsObject
   layers:
   - Default
   - TransparentFX
@@ -15,12 +17,12 @@ TagManager:
   - 
   - PostProcessing
   - Ground
-  - Wall
+  - 
   - Destructable
   - PhysicsWall
+  - Missile
   - 
-  - 
-  - 
+  - PhysicsObject
   - 
   - 
   - 

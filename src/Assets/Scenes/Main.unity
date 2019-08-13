@@ -157,6 +157,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: simple_block (21)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -240,6 +250,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: simple_block (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
@@ -349,6 +369,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: simple_block (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
@@ -550,6 +580,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: simple_block (72)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -633,6 +673,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: simple_block (58)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
@@ -768,6 +818,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: simple_block (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -852,6 +912,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: simple_block (52)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -935,6 +1005,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: simple_block (61)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
@@ -1045,6 +1125,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: simple_block (79)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1128,6 +1218,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: simple_block
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
@@ -1238,6 +1338,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: simple_block (39)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1323,9 +1433,9 @@ GameObject:
   - component: {fileID: 165042808}
   - component: {fileID: 165042807}
   - component: {fileID: 165042806}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cube (8)
-  m_TagString: Untagged
+  m_TagString: PhysicsObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1352,7 +1462,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 165042804}
   serializedVersion: 2
-  m_Mass: 100
+  m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -1430,6 +1540,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: simple_block (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
@@ -1515,6 +1635,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: simple_block (40)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1598,6 +1728,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: simple_block (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
@@ -1708,6 +1848,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: simple_block (26)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1817,6 +1967,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: simple_block (73)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1902,9 +2062,9 @@ GameObject:
   - component: {fileID: 287790026}
   - component: {fileID: 287790025}
   - component: {fileID: 287790024}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cube (6)
-  m_TagString: Untagged
+  m_TagString: PhysicsObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1931,7 +2091,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 287790022}
   serializedVersion: 2
-  m_Mass: 100
+  m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -2009,6 +2169,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: simple_block (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
@@ -2119,6 +2289,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: simple_block (35)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2202,6 +2382,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: simple_block (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
@@ -2313,9 +2503,9 @@ GameObject:
   - component: {fileID: 354299144}
   - component: {fileID: 354299143}
   - component: {fileID: 354299142}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cube (5)
-  m_TagString: Untagged
+  m_TagString: PhysicsObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2342,7 +2532,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 354299140}
   serializedVersion: 2
-  m_Mass: 100
+  m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -2420,6 +2610,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: simple_block (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
@@ -2504,6 +2704,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: simple_block (76)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
@@ -2664,6 +2874,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: simple_block (38)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2773,6 +2993,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: simple_block (47)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2854,9 +3084,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 514955026}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Walls
-  m_TagString: Untagged
+  m_TagString: PhysicsWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3134,6 +3364,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: simple_block (43)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3217,6 +3457,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: simple_block (68)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
@@ -3327,6 +3577,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: simple_block (18)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3410,6 +3670,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: simple_block (77)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
@@ -3520,6 +3790,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: simple_block (20)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3628,6 +3908,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: simple_block (74)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
@@ -3760,6 +4050,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: simple_block (12)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3843,6 +4143,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: simple_block (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
@@ -3954,9 +4264,9 @@ GameObject:
   - component: {fileID: 706022605}
   - component: {fileID: 706022604}
   - component: {fileID: 706022603}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: PhysicsObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3983,7 +4293,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 706022601}
   serializedVersion: 2
-  m_Mass: 100
+  m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -4061,6 +4371,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: simple_block (56)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
@@ -4221,6 +4541,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: simple_block (42)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4330,6 +4660,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: simple_block (8)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4414,6 +4754,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: simple_block (50)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4497,6 +4847,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: simple_block (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
@@ -4583,9 +4943,9 @@ GameObject:
   - component: {fileID: 853524290}
   - component: {fileID: 853524289}
   - component: {fileID: 853524288}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cube (9)
-  m_TagString: Untagged
+  m_TagString: PhysicsObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4612,7 +4972,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 853524286}
   serializedVersion: 2
-  m_Mass: 100
+  m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -4748,6 +5108,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: simple_block (57)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4882,6 +5252,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: simple_block (7)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4990,6 +5370,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: simple_block (65)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
@@ -5200,6 +5590,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: simple_block (62)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5309,6 +5709,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: simple_block (55)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5393,6 +5803,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: simple_block (37)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5476,6 +5896,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: simple_block (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
@@ -5620,6 +6050,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: simple_block (29)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5703,6 +6143,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: simple_block (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
@@ -5838,6 +6288,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: simple_block (44)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5921,6 +6381,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: simple_block (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
@@ -6006,6 +6476,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: simple_block (75)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6089,6 +6569,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: simple_block (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
@@ -6174,6 +6664,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: simple_block (15)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6257,6 +6757,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: simple_block (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
@@ -6366,6 +6876,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: simple_block (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
@@ -6550,6 +7070,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: simple_block (69)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
@@ -6750,6 +7280,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: simple_block (34)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6835,9 +7375,9 @@ GameObject:
   - component: {fileID: 1354963627}
   - component: {fileID: 1354963626}
   - component: {fileID: 1354963625}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cube (7)
-  m_TagString: Untagged
+  m_TagString: PhysicsObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6864,7 +7404,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1354963623}
   serializedVersion: 2
-  m_Mass: 100
+  m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -7059,6 +7599,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: simple_block (4)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7142,6 +7692,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: simple_block (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
@@ -7252,6 +7812,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: simple_block (51)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7336,6 +7906,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: simple_block (36)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7419,6 +7999,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: simple_block (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
@@ -7555,9 +8145,9 @@ GameObject:
   - component: {fileID: 1496992561}
   - component: {fileID: 1496992560}
   - component: {fileID: 1496992559}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cube (4)
-  m_TagString: Untagged
+  m_TagString: PhysicsObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7584,7 +8174,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1496992557}
   serializedVersion: 2
-  m_Mass: 100
+  m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -7732,9 +8322,9 @@ GameObject:
   - component: {fileID: 1571608466}
   - component: {fileID: 1571608465}
   - component: {fileID: 1571608464}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cube (2)
-  m_TagString: Untagged
+  m_TagString: PhysicsObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7761,7 +8351,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1571608462}
   serializedVersion: 2
-  m_Mass: 100
+  m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -7839,6 +8429,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: simple_block (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
@@ -7999,6 +8599,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: simple_block (14)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8083,6 +8693,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: simple_block (45)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8166,6 +8786,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: simple_block (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
@@ -8259,11 +8889,41 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1615181386}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.04, y: 0.04, z: 0.04}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1617073960
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1617073961}
+  m_Layer: 0
+  m_Name: FireTransform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1617073961
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617073960}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.225, z: 2.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1812784230}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1621373046
 GameObject:
   m_ObjectHideFlags: 0
@@ -8277,9 +8937,9 @@ GameObject:
   - component: {fileID: 1621373050}
   - component: {fileID: 1621373049}
   - component: {fileID: 1621373048}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cube (3)
-  m_TagString: Untagged
+  m_TagString: PhysicsObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8306,7 +8966,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1621373046}
   serializedVersion: 2
-  m_Mass: 100
+  m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -8411,9 +9071,9 @@ GameObject:
   - component: {fileID: 1659955193}
   - component: {fileID: 1659955192}
   - component: {fileID: 1659955191}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: PhysicsObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8440,7 +9100,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1659955189}
   serializedVersion: 2
-  m_Mass: 100
+  m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -8569,6 +9229,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: simple_block (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8653,6 +9323,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: simple_block (10)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8736,6 +9416,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: simple_block (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
@@ -8834,6 +9524,31 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.04, y: 0.04, z: 0.04}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1812784229 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 897956735712751814, guid: dc339d35aa52229428ba04359b5b6ba9,
+    type: 3}
+  m_PrefabInstance: {fileID: 9176018213585551965}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1812784230 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4192137929080242901, guid: dc339d35aa52229428ba04359b5b6ba9,
+    type: 3}
+  m_PrefabInstance: {fileID: 9176018213585551965}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1812784232
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1812784229}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5, y: 0.8, z: 1.5}
+  m_Center: {x: 0, y: 1.25, z: 0}
 --- !u!1 &1823282628 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
@@ -8870,6 +9585,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: simple_block (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
@@ -9005,6 +9730,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: simple_block (70)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9114,6 +9849,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: simple_block (23)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9197,6 +9942,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: simple_block (60)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
@@ -9331,6 +10086,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: simple_block (64)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
@@ -9516,6 +10281,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: simple_block (24)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9599,6 +10374,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: simple_block (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
@@ -9734,6 +10519,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: simple_block (71)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9843,6 +10638,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: simple_block (67)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9951,6 +10756,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: simple_block (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
@@ -10144,6 +10959,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: simple_block (33)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10227,6 +11052,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: simple_block (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
@@ -10362,6 +11197,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: simple_block (80)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10445,6 +11290,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: simple_block (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9cde6c90761bd46419a6d0c989f2303b,
+        type: 3}
+      propertyPath: m_TagString
+      value: PhysicsWall
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9cde6c90761bd46419a6d0c989f2303b,
         type: 3}
@@ -10634,6 +11489,23 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 405120917, guid: dc339d35aa52229428ba04359b5b6ba9, type: 3}
+      propertyPath: missile
+      value: 
+      objectReference: {fileID: 1683988203442325921, guid: fa806082c76cbb24b809962fd5d6126a,
+        type: 3}
+    - target: {fileID: 405120917, guid: dc339d35aa52229428ba04359b5b6ba9, type: 3}
+      propertyPath: missileSpawn
+      value: 
+      objectReference: {fileID: 1617073961}
+    - target: {fileID: 700042825, guid: dc339d35aa52229428ba04359b5b6ba9, type: 3}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 700042825, guid: dc339d35aa52229428ba04359b5b6ba9, type: 3}
+      propertyPath: m_Center.y
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc339d35aa52229428ba04359b5b6ba9, type: 3}

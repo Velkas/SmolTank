@@ -4,9 +4,16 @@ using UnityEngine;
 
 public class TankControls : MonoBehaviour
 {
+    [Header("Player Attributes")]
     public int playerNumber = 1;              // Used to identify which tank belongs to which player.  This is set by this tank's manager.
     public float moveSpeed = 12f;                 // How fast the tank moves forward and back.
     public float turnSpeed = 180f;            // How fast the tank turns in degrees per second.
+
+    [Header("Missile Attributes")]
+    public GameObject missile;
+    public Transform missileSpawn;
+    public float fireRate = 1f;
+    private float fireCounter = 0;
 
     private string movementAxisName;          // The name of the input axis for moving forward and back.
     private string turnAxisName;              // The name of the input axis for turning.
@@ -18,7 +25,6 @@ public class TankControls : MonoBehaviour
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
-        //rb.isKinematic = true;
     }
 
     private void Start()
@@ -33,6 +39,14 @@ public class TankControls : MonoBehaviour
         // Store the value of both input axes.
         movementInput = Input.GetAxis(movementAxisName);
         turnInput = Input.GetAxis(turnAxisName);
+
+        if (Input.GetButtonDown("Fire1") && fireCounter <= 0)
+        {
+            Shoot();
+            fireCounter = 1f / fireRate;
+        }
+
+        fireCounter -= Time.deltaTime;
     }
 
     private void FixedUpdate()
@@ -60,5 +74,10 @@ public class TankControls : MonoBehaviour
 
         // Apply this rotation to the rigidbody's rotation.
         rb.MoveRotation(transform.rotation * turnRotation);
+    }
+
+    private void Shoot()
+    {
+        GameObject spawnedMissile = Instantiate(missile, missileSpawn.position, missileSpawn.rotation);
     }
 }
