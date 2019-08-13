@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class MissileController : MonoBehaviour
 {
-    public float moveSpeed = 12f;
-    public float explosionRadius = 10f;
-    public float explosionPower = 5f;
-    public LayerMask layersToExplode;
+    private float moveSpeed = 12f;
+    private float explosionRadius = 6f;
+    private float explosionPower = 2500f;
+    private LayerMask layersToExplode = 32768;
 
     private bool triggered = false;
     private Rigidbody rb;
@@ -20,7 +20,10 @@ public class MissileController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        triggered = true;
+        if (other.tag != "Player")
+        {
+            triggered = true;
+        }
     }
 
     void Update()
@@ -30,6 +33,7 @@ public class MissileController : MonoBehaviour
         {
             // Collect the current position
             Vector3 explosionPos = transform.position;
+            explosionPos.y += 0.5f;
 
             // Get all object in range that are port of the layermask
             Collider[] objects = GetObjectsInRange();
@@ -44,7 +48,7 @@ public class MissileController : MonoBehaviour
                 if (obj_rb != null)
                 {
                     // Apply the explosion
-                    obj_rb.AddExplosionForce(explosionPower, explosionPos, explosionRadius, 1f);
+                    obj_rb.AddExplosionForce(explosionPower, explosionPos, explosionRadius, 0f);
                 }
             }
 

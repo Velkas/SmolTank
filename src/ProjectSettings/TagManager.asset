@@ -6,6 +6,7 @@ TagManager:
   tags:
   - PhysicsWall
   - PhysicsObject
+  - Missile
   layers:
   - Default
   - TransparentFX
@@ -24,7 +25,7 @@ TagManager:
   - 
   - PhysicsObject
   - 
-  - 
+  - Player
   - 
   - 
   - 

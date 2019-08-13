@@ -60,7 +60,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 670224309865224971, guid: d797bd0030700be45b68b37f9480cd70, type: 3}
+  - {fileID: 2100000, guid: cc5344c0fa5ed5340ab465d61366cb0d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -123,9 +123,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42095e72ece60234d8d062e7f2e93b3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 15
-  explosionRadius: 8
-  explosionPower: 3000
-  layersToExplode:
-    serializedVersion: 2
-    m_Bits: 32768
