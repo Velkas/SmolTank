@@ -7,7 +7,7 @@ public class TankControls : MonoBehaviour
     [Header("Player Attributes")]
     public int playerNumber = 1;
     public bool tankControl = true;
-    public TankAttributes attributes = new TankAttributes();
+    public TankAttributes attributes = new TankAttributes().GetPlayerAttributes();
 
     [Header("Missile Attributes")]
     public GameObject missile;
@@ -31,15 +31,6 @@ public class TankControls : MonoBehaviour
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
-
-        // Initialize tank attributes -- Player
-        attributes.movement = TankAttributes.Movement.Normal;
-        attributes.behavior = TankAttributes.Behavior.Controlled;
-        attributes.bulletSpeed = TankAttributes.BulletSpeed.Normal;
-        attributes.fireRate = TankAttributes.FireRate.Fast;
-        attributes.ricochets = TankAttributes.Ricochets.Single;
-        attributes.bulletLimit = TankAttributes.BulletLimit.Large;
-        attributes.mineLimit = TankAttributes.MineLimit.Small;
     }
 
     private void Start()

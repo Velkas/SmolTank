@@ -59,4 +59,19 @@
     public Ricochets ricochets;
     public BulletLimit bulletLimit;
     public MineLimit mineLimit;
+
+    public TankAttributes GetPlayerAttributes()
+    {
+        TankAttributes playerAttributes = new TankAttributes();
+
+        playerAttributes.movement = TankAttributes.Movement.Normal;
+        playerAttributes.behavior = TankAttributes.Behavior.Controlled;
+        playerAttributes.bulletSpeed = TankAttributes.BulletSpeed.Normal;
+        playerAttributes.fireRate = TankAttributes.FireRate.Fast;
+        playerAttributes.ricochets = TankAttributes.Ricochets.Single;
+        playerAttributes.bulletLimit = TankAttributes.BulletLimit.Large;
+        playerAttributes.mineLimit = TankAttributes.MineLimit.Small;
+
+        return playerAttributes;
+    }
 }
