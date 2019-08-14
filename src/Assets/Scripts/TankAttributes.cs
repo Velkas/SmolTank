@@ -60,18 +60,26 @@
     public BulletLimit bulletLimit;
     public MineLimit mineLimit;
 
-    public TankAttributes GetPlayerAttributes()
+    public TankAttributes GetTankAttributes(string tankType)
     {
-        TankAttributes playerAttributes = new TankAttributes();
+        TankAttributes attributes = new TankAttributes();
 
-        playerAttributes.movement = TankAttributes.Movement.Normal;
-        playerAttributes.behavior = TankAttributes.Behavior.Controlled;
-        playerAttributes.bulletSpeed = TankAttributes.BulletSpeed.Normal;
-        playerAttributes.fireRate = TankAttributes.FireRate.Fast;
-        playerAttributes.ricochets = TankAttributes.Ricochets.Single;
-        playerAttributes.bulletLimit = TankAttributes.BulletLimit.Large;
-        playerAttributes.mineLimit = TankAttributes.MineLimit.Small;
+        switch (tankType.ToLowerInvariant())
+        {
+            case "player":
+                attributes.movement = TankAttributes.Movement.Normal;
+                attributes.behavior = TankAttributes.Behavior.Controlled;
+                attributes.bulletSpeed = TankAttributes.BulletSpeed.Normal;
+                attributes.fireRate = TankAttributes.FireRate.Fast;
+                attributes.ricochets = TankAttributes.Ricochets.Single;
+                attributes.bulletLimit = TankAttributes.BulletLimit.Large;
+                attributes.mineLimit = TankAttributes.MineLimit.Small;
+                break;
+            default:
+                attributes = null;
+                break;
+        }
 
-        return playerAttributes;
+        return attributes;
     }
 }

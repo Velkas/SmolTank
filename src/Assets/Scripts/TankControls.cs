@@ -7,7 +7,8 @@ public class TankControls : MonoBehaviour
     [Header("Player Attributes")]
     public int playerNumber = 1;
     public bool tankControl = true;
-    public TankAttributes attributes = new TankAttributes().GetPlayerAttributes();
+    public const string tankType = "Player";
+    private TankAttributes attributes;
 
     [Header("Missile Attributes")]
     public GameObject missile;
@@ -28,19 +29,22 @@ public class TankControls : MonoBehaviour
     private float movementInput;
     private float turnInput;
 
-    void Awake()
+    void Start()
     {
         rb = GetComponent<Rigidbody>();
-    }
+        attributes = new TankAttributes().GetTankAttributes(tankType);
 
-    private void Start()
-    {
+        if (attributes == null)
+        {
+            Debug.LogError("Unable to find tank attributes for tank type: " + tankType.ToLowerInvariant());
+        }
+
         // The axes names are based on player number.
         movementAxisName = "Vertical" + playerNumber;
         turnAxisName = "Horizontal" + playerNumber;
     }
 
-    private void Update()
+    void Update()
     {
         // Store the value of both input axes.
         movementInput = Input.GetAxis(movementAxisName);
