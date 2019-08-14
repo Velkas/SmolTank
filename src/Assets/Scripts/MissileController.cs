@@ -53,7 +53,7 @@ public class MissileController : MonoBehaviour
                 if (obj_rb != null)
                 {
                     // Apply the explosion
-                    obj_rb.AddExplosionForce(explosionPower, explosionPos, explosionRadius, 0f);
+                    obj_rb.AddExplosionForce(explosionPower, explosionPos, explosionRadius, 1f);
                 }
             }
 
