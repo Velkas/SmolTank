@@ -4,11 +4,17 @@ using UnityEngine;
 
 public class GlobalInteraction : MonoBehaviour
 {
+    public bool Paused = false;
+
     void Update()
     {
-        if (Input.GetKey("escape"))
+        Cursor.visible = Paused;
+        Cursor.lockState = Paused ? CursorLockMode.None : CursorLockMode.Confined;
+
+        if (Input.GetKeyDown("escape") || Input.GetKeyDown("p"))
         {
-            Application.Quit();
+            Paused = !Paused;
+            Time.timeScale = Paused ? 0 : 1;
         }
     }
 }

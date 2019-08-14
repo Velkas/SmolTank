@@ -1,16 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System.Linq;
 
-public class MissileController : MonoBehaviour
+public class MineController : MonoBehaviour
 {
     [Header("Missile Attributes")]
-    [HideInInspector]
-    public float moveSpeed = 15f;
     public float explosionRadius = 8f;
     public float explosionPower = 2500f;
-    public LayerMask layersToExplode = 32768;
+    public float lifetime = 20f;
+    public LayerMask layersToExplode = 436224;
 
     private bool triggered = false;
     private Rigidbody rb;
@@ -25,7 +23,7 @@ public class MissileController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag != "Player")
+        if (other.tag == "Enemy" || other.tag == "Missile")
         {
             triggered = true;
         }
@@ -33,6 +31,12 @@ public class MissileController : MonoBehaviour
 
     void Update()
     {
+        // Check lifetime
+        if (lifetime <= 0)
+        {
+            triggered = true;
+        }
+
         // Explode if triggered
         if (triggered)
         {
@@ -53,7 +57,7 @@ public class MissileController : MonoBehaviour
                 if (obj_rb != null)
                 {
                     // Apply the explosion
-                    obj_rb.AddExplosionForce(explosionPower, explosionPos, explosionRadius, 0f);
+                    obj_rb.AddExplosionForce(explosionPower, explosionPos, explosionRadius, 2f);
                 }
             }
 
@@ -66,6 +70,8 @@ public class MissileController : MonoBehaviour
             // set the object for destruction
             Destroy(gameObject);
         }
+
+        lifetime -= Time.deltaTime;
     }
 
     private Collider[] GetObjectsInRange()
@@ -77,12 +83,8 @@ public class MissileController : MonoBehaviour
         return objectsInRange;
     }
 
-    // Update is called once per frame
-    void FixedUpdate()
+    public void ConfigureMine(GameObject obj)
     {
-        // Create a vector in the direction the tank is facing with a magnitude based on the input, speed and the time between frames.
-        Vector3 movement = transform.forward * moveSpeed * Time.deltaTime;
-        // Apply this movement to the rigidbody's position.
-        rb.MovePosition(transform.position + movement);
+        spawner = obj;
     }
 }

@@ -5,26 +5,41 @@ using UnityEngine;
 public class TankControls : MonoBehaviour
 {
     [Header("Player Attributes")]
-    public int playerNumber = 1;              // Used to identify which tank belongs to which player.  This is set by this tank's manager.
-    public float moveSpeed = 12f;                 // How fast the tank moves forward and back.
-    public float turnSpeed = 180f;            // How fast the tank turns in degrees per second.
+    public int playerNumber = 1;
+    public bool tankControl = true;
+    public TankAttributes attributes = new TankAttributes();
 
     [Header("Missile Attributes")]
     public GameObject missile;
     public Transform missileSpawn;
-    public float fireRate = 0.25f;
-    private float fireCounter = 0;
+    private float fireTimer = 0;
+    [HideInInspector]
+    public List<GameObject> missiles = new List<GameObject>();
 
-    private string movementAxisName;          // The name of the input axis for moving forward and back.
-    private string turnAxisName;              // The name of the input axis for turning.
-    private Rigidbody rb;              // Reference used to move the tank.
-    private float movementInput;         // The current value of the movement input.
-    private float turnInput;             // The current value of the turn input.
-    //private float m_OriginalPitch;              // The pitch of the audio source at the start of the scene.
+    [Header("Mine Attributes")]
+    public GameObject mine;
+    public Transform mineSpawn;
+    [HideInInspector]
+    public List<GameObject> mines = new List<GameObject>();
+
+    private string movementAxisName;
+    private string turnAxisName;
+    private Rigidbody rb;
+    private float movementInput;
+    private float turnInput;
 
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
+
+        // Initialize tank attributes -- Player
+        attributes.movement = TankAttributes.Movement.Normal;
+        attributes.behavior = TankAttributes.Behavior.Controlled;
+        attributes.bulletSpeed = TankAttributes.BulletSpeed.Normal;
+        attributes.fireRate = TankAttributes.FireRate.Fast;
+        attributes.ricochets = TankAttributes.Ricochets.Single;
+        attributes.bulletLimit = TankAttributes.BulletLimit.Large;
+        attributes.mineLimit = TankAttributes.MineLimit.Small;
     }
 
     private void Start()
@@ -40,13 +55,18 @@ public class TankControls : MonoBehaviour
         movementInput = Input.GetAxis(movementAxisName);
         turnInput = Input.GetAxis(turnAxisName);
 
-        if (Input.GetButtonDown("Fire1") && fireCounter <= 0)
+        if (Input.GetButtonDown("Fire1") && fireTimer <= 0 && missiles.Count < (int)attributes.bulletLimit)
         {
-            Shoot();
-            fireCounter = 1f * fireRate;
+            missiles.Add(Shoot());
+            fireTimer = 1f / (int)attributes.fireRate;
         }
 
-        fireCounter -= Time.deltaTime;
+        if (Input.GetButtonDown("Fire2") && mines.Count < (int)attributes.mineLimit)
+        {
+            mines.Add(LayMine());
+        }
+
+        fireTimer -= Time.deltaTime;
     }
 
     private void FixedUpdate()
@@ -58,26 +78,72 @@ public class TankControls : MonoBehaviour
 
     private void Move()
     {
-        // Create a vector in the direction the tank is facing with a magnitude based on the input, speed and the time between frames.
-        Vector3 movement = transform.forward * movementInput * moveSpeed * Time.deltaTime;
-        // Apply this movement to the rigidbody's position.
-        rb.MovePosition(transform.position + movement);
+        if (tankControl)
+        {
+            // Create a vector in the direction the tank is facing with a magnitude based on the input, speed and the time between frames.
+            Vector3 movement = transform.forward * movementInput * (int)attributes.movement * Time.fixedDeltaTime;
+            // Apply this movement to the rigidbody's position.
+            rb.MovePosition(transform.position + movement);
+        }
+        else
+        {
+            // directional move
+        }
     }
 
     private void Turn()
     {
-        // Determine the number of degrees to be turned based on the input, speed and time between frames.
-        float turn = turnInput * turnSpeed * Time.deltaTime;
+        if (tankControl)
+        {
+            // Determine the number of degrees to be turned based on the input, speed and time between frames.
+            float turn = turnInput * ((int)attributes.movement * 10) * Time.fixedDeltaTime;
 
-        // Make this into a rotation in the y axis.
-        Quaternion turnRotation = Quaternion.Euler(0f, turn, 0f);
+            // Make this into a rotation in the y axis.
+            Quaternion turnRotation = Quaternion.Euler(0f, turn, 0f);
 
-        // Apply this rotation to the rigidbody's rotation.
-        rb.MoveRotation(transform.rotation * turnRotation);
+            // Apply this rotation to the rigidbody's rotation.
+            rb.MoveRotation(transform.rotation * turnRotation);
+        }
+        else
+        {
+            // directional rotation
+        }
     }
 
-    private void Shoot()
+    private GameObject Shoot()
     {
-        GameObject spawnedMissile = Instantiate(missile, missileSpawn.position, missileSpawn.rotation);
+        // Shoot a missile
+        GameObject missileInstance = Instantiate(missile, missileSpawn.position, missileSpawn.rotation);
+        MissileController controller = missileInstance.GetComponent<MissileController>();
+        controller.moveSpeed = (float)attributes.bulletSpeed;
+        controller.spawner = gameObject;
+        return missileInstance;
+    }
+
+    private GameObject LayMine()
+    {
+        // Lay a mine
+        GameObject mineInstance = Instantiate(mine, mineSpawn.position, mineSpawn.rotation);
+        mineInstance.SendMessage("ConfigureMine", gameObject);
+        return mineInstance;
+    }
+
+    public void ObjectDestroyed(GameObject obj)
+    {
+        if (missiles.Exists(o => o == obj))
+        {
+            // Missile was destroyed, remove it so a new one can be spawned
+            missiles.Remove(obj);
+        }
+        else if (mines.Exists(o => o == obj))
+        {
+            // Mine was destroyed, remove it so a new one can be spawned
+            mines.Remove(obj);
+        }
+        else
+        {
+            // Error, couldn't find the object
+            Debug.LogError(gameObject.name + " does not contain GameObject: " + obj.name);
+        }
     }
 }
