@@ -38,7 +38,7 @@ public class MissileController : MonoBehaviour
         {
             // Collect the current position
             Vector3 explosionPos = transform.position;
-            explosionPos.y += 0.5f;
+            explosionPos.y -= 0.2f;
 
             // Get all object in range that are port of the layermask
             Collider[] objects = GetObjectsInRange();
