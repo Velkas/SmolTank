@@ -11,12 +11,11 @@ GameObject:
   - component: {fileID: 9142339834595150120}
   - component: {fileID: 268838406178321182}
   - component: {fileID: 5802767656418693095}
-  - component: {fileID: 1969090343043265836}
   - component: {fileID: -8713803151432515727}
   - component: {fileID: 3110752271778775853}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: mine
-  m_TagString: Untagged
+  m_TagString: Mine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81,20 +80,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &1969090343043265836
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5240857894490241851}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 289301614986012343, guid: cec2351957e6fa543b0e975134107e8c, type: 3}
 --- !u!114 &-8713803151432515727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109,10 +94,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explosionRadius: 8
   explosionPower: 2500
-  lifetime: 20
-  layersToExplode:
+  affectedLayers:
     serializedVersion: 2
     m_Bits: 436224
+  lifetime: 20
+  originalColor: {r: 0.91372555, g: 0.6666667, b: 0.15294118, a: 0}
+  flashColor: {r: 0.9137255, g: 0.30606875, b: 0.15294115, a: 0}
   spawner: {fileID: 0}
 --- !u!136 &3110752271778775853
 CapsuleCollider:

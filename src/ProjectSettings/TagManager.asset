@@ -8,6 +8,7 @@ TagManager:
   - PhysicsObject
   - Missile
   - Enemy
+  - Mine
   layers:
   - Default
   - TransparentFX
@@ -23,7 +24,7 @@ TagManager:
   - Destructable
   - PhysicsWall
   - Missile
-  - 
+  - Mine
   - PhysicsObject
   - 
   - Player

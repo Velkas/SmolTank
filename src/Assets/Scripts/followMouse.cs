@@ -27,6 +27,7 @@ public class followMouse : MonoBehaviour
             Vector3 target = ray.GetPoint(hit);
             Quaternion targetRotation = Quaternion.LookRotation(target - transform.position, Vector3.up);
             transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, lookSpeed * Time.deltaTime);
+            Debug.DrawLine(ray.origin, ray.GetPoint(hit));
         }
     }
 }

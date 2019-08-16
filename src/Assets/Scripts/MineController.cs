@@ -7,8 +7,17 @@ public class MineController : MonoBehaviour
     [Header("Missile Attributes")]
     public float explosionRadius = 8f;
     public float explosionPower = 2500f;
+    public LayerMask affectedLayers = 436224;
+
+    [Header("Timer Details")]
     public float lifetime = 20f;
-    public LayerMask layersToExplode = 436224;
+    public Color originalColor;
+    public Color flashColor;
+    private Material mineMaterial;
+    private float flashDuration = 0.2f;
+    private int numberOfFlashes = 5;
+    private float originalLife;
+    private bool flashing = false;
 
     private bool triggered = false;
     private Rigidbody rb;
@@ -19,6 +28,8 @@ public class MineController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        mineMaterial = GetComponent<MeshRenderer>().material;
+        originalLife = lifetime;
     }
 
     private void OnTriggerEnter(Collider other)
@@ -32,9 +43,9 @@ public class MineController : MonoBehaviour
     void Update()
     {
         // Check lifetime
-        if (lifetime <= 0)
+        if (lifetime <= originalLife * flashDuration && !flashing)
         {
-            triggered = true;
+            StartCoroutine(FlashColor());
         }
 
         // Explode if triggered
@@ -77,7 +88,7 @@ public class MineController : MonoBehaviour
     private Collider[] GetObjectsInRange()
     {
         // Get all the objects within a range that are part of the layermask
-        Collider[] objectsInRange = Physics.OverlapSphere(transform.position, explosionRadius, layersToExplode);
+        Collider[] objectsInRange = Physics.OverlapSphere(transform.position, explosionRadius, affectedLayers);
 
         // Return all the objects
         return objectsInRange;
@@ -86,5 +97,20 @@ public class MineController : MonoBehaviour
     public void ConfigureMine(GameObject obj)
     {
         spawner = obj;
+    }
+
+    private IEnumerator FlashColor()
+    {
+        flashing = true;
+        int flashes = 0;
+        while (flashes < numberOfFlashes)
+        {
+            mineMaterial.SetColor("_color", flashColor);
+            yield return new WaitForSeconds(flashDuration);
+            mineMaterial.SetColor("_color", originalColor);
+            yield return new WaitForSeconds(flashDuration);
+            flashes++;
+        }
+        triggered = true;
     }
 }
