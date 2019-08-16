@@ -163,15 +163,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerNumber: 1
-  moveSpeed: 10
-  turnSpeed: 100
   tankControl: 1
   missile: {fileID: 1683988203442325921, guid: fa806082c76cbb24b809962fd5d6126a, type: 3}
   missileSpawn: {fileID: 1617073961}
-  fireRate: 0.25
+  missiles: []
   mine: {fileID: 5240857894490241851, guid: 8a3439394b93a1046bc121e91883b0e2, type: 3}
   mineSpawn: {fileID: 1457287452}
-  mineCount: 3
+  mines: []
 --- !u!114 &700042826
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -275,11 +273,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -2416733968201007103, guid: 32529feac2ab3eb40b52541db8772720,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 220d3c057e42ac04d90c28b777f671db, type: 2}
     - target: {fileID: -2745567992595731601, guid: 32529feac2ab3eb40b52541db8772720,
         type: 3}
       propertyPath: m_Enabled
@@ -290,6 +283,11 @@ PrefabInstance:
       propertyPath: m_Convex
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -2416733968201007103, guid: 32529feac2ab3eb40b52541db8772720,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 220d3c057e42ac04d90c28b777f671db, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32529feac2ab3eb40b52541db8772720, type: 3}
 --- !u!1 &2608751865644096099 stripped
@@ -391,11 +389,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -2416733968201007103, guid: 650a3f2edfee6cd4d9a05f4c02a2399f,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 220d3c057e42ac04d90c28b777f671db, type: 2}
     - target: {fileID: -2745567992595731601, guid: 650a3f2edfee6cd4d9a05f4c02a2399f,
         type: 3}
       propertyPath: m_Enabled
@@ -406,6 +399,11 @@ PrefabInstance:
       propertyPath: m_Convex
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -2416733968201007103, guid: 650a3f2edfee6cd4d9a05f4c02a2399f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 220d3c057e42ac04d90c28b777f671db, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 650a3f2edfee6cd4d9a05f4c02a2399f, type: 3}
 --- !u!1 &897956735712751814 stripped

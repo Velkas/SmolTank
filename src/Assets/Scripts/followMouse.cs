@@ -17,7 +17,7 @@ public class followMouse : MonoBehaviour
     {
         Plane playerPlane = new Plane(Vector3.up, transform.position);
         Vector2 mousePosition = Input.mousePosition;
-        mousePosition.y -= 15f;
+        mousePosition.y -= 12f;
         Ray ray = cam.ScreenPointToRay(mousePosition);
         float hit = 0f;
 
