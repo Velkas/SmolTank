@@ -23,8 +23,12 @@ public class TankControls : MonoBehaviour
     [HideInInspector]
     public List<GameObject> mines = new List<GameObject>();
 
+    private ParticleSystem sparks;
+
     private string movementAxisName;
     private string turnAxisName;
+    private string fire1Button;
+    private string fire2Button;
     private Rigidbody rb;
     private float movementInput;
     private float turnInput;
@@ -32,6 +36,7 @@ public class TankControls : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        sparks = GetComponentInChildren<ParticleSystem>();
         attributes = new TankAttributes().GetTankAttributes(tankType);
 
         if (attributes == null)
@@ -42,6 +47,8 @@ public class TankControls : MonoBehaviour
         // The axes names are based on player number.
         movementAxisName = "Vertical" + playerNumber;
         turnAxisName = "Horizontal" + playerNumber;
+        fire1Button = "Fire1" + playerNumber;
+        fire2Button = "Fire2" + playerNumber;
     }
 
     void Update()
@@ -50,13 +57,13 @@ public class TankControls : MonoBehaviour
         movementInput = Input.GetAxis(movementAxisName);
         turnInput = Input.GetAxis(turnAxisName);
 
-        if (Input.GetButtonDown("Fire1") && fireTimer <= 0 && missiles.Count < (int)attributes.bulletLimit)
+        if (Input.GetButtonDown(fire1Button) && fireTimer <= 0 && missiles.Count < (int)attributes.bulletLimit)
         {
             missiles.Add(Shoot());
             fireTimer = 1f / (int)attributes.fireRate;
         }
 
-        if (Input.GetButtonDown("Fire2") && mines.Count < (int)attributes.mineLimit)
+        if (Input.GetButtonDown(fire2Button) && mines.Count < (int)attributes.mineLimit)
         {
             mines.Add(LayMine());
         }
@@ -107,6 +114,7 @@ public class TankControls : MonoBehaviour
 
     private GameObject Shoot()
     {
+        sparks.Play();
         // Shoot a missile
         GameObject missileInstance = Instantiate(missile, missileSpawn.position, missileSpawn.rotation);
         MissileController controller = missileInstance.GetComponent<MissileController>();

@@ -15,7 +15,7 @@ public class MineController : MonoBehaviour
     public Color flashColor;
     private Material mineMaterial;
     private float flashDuration = 0.2f;
-    private int numberOfFlashes = 5;
+    private int numberOfFlashes = 15;
     private float originalLife;
     private bool flashing = false;
 
@@ -107,6 +107,7 @@ public class MineController : MonoBehaviour
         {
             mineMaterial.SetColor("_color", flashColor);
             yield return new WaitForSeconds(flashDuration);
+            flashDuration *= 0.8f;
             mineMaterial.SetColor("_color", originalColor);
             yield return new WaitForSeconds(flashDuration);
             flashes++;

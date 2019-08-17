@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class followMouse : MonoBehaviour
+public class FollowMouse : MonoBehaviour
 {
     public float lookSpeed = 3f;
 

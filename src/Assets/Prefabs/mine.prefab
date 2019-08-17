@@ -97,7 +97,7 @@ MonoBehaviour:
   affectedLayers:
     serializedVersion: 2
     m_Bits: 436224
-  lifetime: 20
+  lifetime: 10
   originalColor: {r: 0.91372555, g: 0.6666667, b: 0.15294118, a: 0}
   flashColor: {r: 0.9137255, g: 0.30606875, b: 0.15294115, a: 0}
   spawner: {fileID: 0}

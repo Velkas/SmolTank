@@ -13,7 +13,9 @@ public class MissileController : MonoBehaviour
     public LayerMask layersToExplode = 32768;
 
     private bool triggered = false;
+    private bool destroyed = false;
     private Rigidbody rb;
+    private ParticleSystem.MainModule smoke;
     [HideInInspector]
     public GameObject spawner;
 
@@ -21,6 +23,7 @@ public class MissileController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        smoke = GetComponentInChildren<ParticleSystem>().main;
     }
 
     private void OnTriggerEnter(Collider other)
@@ -34,7 +37,7 @@ public class MissileController : MonoBehaviour
     void Update()
     {
         // Explode if triggered
-        if (triggered)
+        if (triggered && !destroyed)
         {
             // Collect the current position
             Vector3 explosionPos = transform.position;
@@ -57,14 +60,21 @@ public class MissileController : MonoBehaviour
                 }
             }
 
-            // Tell the spawner that we are destroyed
+            GetComponent<MeshRenderer>().enabled = false;
+            ParticleSystem smokeSystem = GetComponentInChildren<ParticleSystem>();
+            smoke.loop = false;
+            // Tell the spawner that we are destroyed (but don't destroy till smoke finishes)
+            destroyed = true;
             spawner.SendMessage("ObjectDestroyed", gameObject);
 
-            // Set gameobject to inactive just incase destroy takes too long
-            gameObject.SetActive(false);
+            if (!smokeSystem.isPlaying)
+            {
+                // Set gameobject to inactive just incase destroy takes too long
+                gameObject.SetActive(false);
 
-            // set the object for destruction
-            Destroy(gameObject);
+                // set the object for destruction
+                Destroy(gameObject);
+            }
         }
     }
 

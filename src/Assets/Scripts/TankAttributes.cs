@@ -1,5 +1,6 @@
 ﻿public class TankAttributes
 {
+    [System.Serializable]
     public enum Movement
     {
         Stationary = 0,
@@ -8,6 +9,7 @@
         Fast = 15
     }
 
+    [System.Serializable]
     public enum Behavior
     {
         Controlled,
@@ -17,18 +19,21 @@
         Offensive
     }
 
+    [System.Serializable]
     public enum BulletSpeed
     {
         Normal = 15,
         Fast = 20
     }
 
+    [System.Serializable]
     public enum FireRate
     {
         Slow = 1,
         Fast = 4
     }
 
+    [System.Serializable]
     public enum Ricochets
     {
         None = 0,
@@ -36,6 +41,7 @@
         Multiple = 2
     }
 
+    [System.Serializable]
     public enum BulletLimit
     {
         None = 0,
@@ -45,6 +51,7 @@
         Large = 5
     }
 
+    [System.Serializable]
     public enum MineLimit
     {
         None = 0,
